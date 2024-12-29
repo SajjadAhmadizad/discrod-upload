@@ -3,7 +3,7 @@ import json
 import pika
 from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 ROUTING_KEY = 'discord.routing.key'
 EXCHANGE = 'message_exchange'

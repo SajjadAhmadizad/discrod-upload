@@ -7,7 +7,7 @@ import time
 time.sleep(15)
 # ==========
 
-load_dotenv()
+# load_dotenv()
 bot_token = os.getenv("DISCORD_TOKEN")
 
 td = MessageListener()

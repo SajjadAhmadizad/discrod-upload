@@ -5,7 +5,7 @@ import threading
 from dotenv import load_dotenv
 from discord_manager import send_to_discord
 
-load_dotenv()
+# load_dotenv()
 
 ROUTING_KEY = 'discord.routing.key'
 EXCHANGE = 'message_exchange'
